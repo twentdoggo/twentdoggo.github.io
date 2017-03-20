@@ -3,9 +3,17 @@
     <head>
         <meta charset="utf-8">
         <title>Doggo Home</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+       <link rel="icon" href="images/favicon.ico" type="image/x-icon">
         <style>
+            body {
+                background: rgb(128, 0, 0);
+            }
+            p {
+                color: white;
+            }
+            h1 {
+                background-color: white;
+            }
             #bottom-tag { 
                 background-color: white; 
             }
@@ -13,11 +21,18 @@
     </head>
     <body>
          <h1>TwentDoggo</h1>
-
+        <button id="projectsButton">Click here to see my projects!</button>
         </p>
-        <p id="bottom-tag">
+       <p id="bottom-tag">
             <a href="#">Back to top</a>
             <a href="https://github.com/twentdoggo/" target="_blank">Hosted on GitHub</a>
         </p>
+        <script>
+            var projectButton = document.getElementById("projectsButton");
+            var pButton = function() {
+                projectButton.textContent = "Thank you!";
+            };
+            projectButton.addEventListener("click", pButton);
+        </script>
     </body>
 </html>
