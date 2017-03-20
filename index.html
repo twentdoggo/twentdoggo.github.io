@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Doggo Home</title>
-       <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
         <style>
             body {
                 background: rgb(128, 0, 0);
@@ -21,9 +21,31 @@
     </head>
     <body>
          <h1>TwentDoggo</h1>
+
         <button id="projectsButton">Click here to see my projects!</button>
-        </p>
-       <p id="bottom-tag">
+        <div id="userstyles-container">
+        <h3>My User Styles</h3>
+        <script>
+        if (window.addEventListener)
+            window.addEventListener("load", userstylesLoad, false);
+        else if (window.attachEvent)
+            window.attachEvent("onload", userstylesLoad);
+        function userstylesLoad() {
+            var c = document.getElementById("userstyles-container");
+            var s1 = document.createElement("script");
+            s1.setAttribute("async", "true");
+            var s2 = s1.cloneNode(false);
+            s1.src = "https://userstyles.org/widgets/v1.js";
+            c.appendChild(s1);
+            s2.src = "https://widget.userstyles.org/users/404847.jsonp?callback=userstyles.handleData";
+            c.appendChild(s2);
+        }
+        </script>
+        <noscript>
+        Check out <a href="https://userstyles.org/users/404847">My User Styles</a>
+        </noscript>
+        </div>
+        <p id="bottom-tag">
             <a href="#">Back to top</a>
             <a href="https://github.com/twentdoggo/" target="_blank">Hosted on GitHub</a>
         </p>
