@@ -1,0 +1,18 @@
+body {
+    background: rgb(128, 0, 0);  
+}
+p {
+    color: white;
+}
+h1 {
+   background-color: white; 
+}
+h2 {
+    background-color: red;
+}
+h3 {
+    background-color: red;
+}
+ul {
+    background-color: white;
+}
