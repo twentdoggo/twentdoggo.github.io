@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Doggo Home</title>
-        <link rel="stylesheet" type="text/css" href="https://rawgit.com/twentdoggo/stylesheet/master/style.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="icon" href="images/favicon.ico" type="image/x-icon">
         <style>  
             #bottom-tag { 
@@ -17,22 +17,6 @@
         <button id="projectsButton">Click here to see my projects!</button>
         <div id="userstyles-container">
         <h3>My User Styles</h3>
-        <script>
-        if (window.addEventListener)
-            window.addEventListener("load", userstylesLoad, false);
-        else if (window.attachEvent)
-            window.attachEvent("onload", userstylesLoad);
-        function userstylesLoad() {
-            var c = document.getElementById("userstyles-container");
-            var s1 = document.createElement("script");
-            s1.setAttribute("async", "true");
-            var s2 = s1.cloneNode(false);
-            s1.src = "https://userstyles.org/widgets/v1.js";
-            c.appendChild(s1);
-            s2.src = "https://widget.userstyles.org/users/404847.jsonp?callback=userstyles.handleData";
-            c.appendChild(s2);
-        }
-        </script>
         <noscript>
         Check out <a href="https://userstyles.org/users/404847">My User Styles</a>
         </noscript>
@@ -41,13 +25,6 @@
             <a href="#">Back to top</a>
             <a href="https://github.com/twentdoggo/" target="_blank">Hosted on GitHub</a>
         </p>
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
-        <script>
-            var projectButton = document.getElementById("projectsButton");
-            var pButton = function() {
-                projectButton.textContent = "Thank you!";
-            };
-            projectButton.addEventListener("click", pButton);
-        </script>
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
     </body>
 </html>
