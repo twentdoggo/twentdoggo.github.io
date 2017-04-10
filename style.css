@@ -16,3 +16,9 @@ h3 {
 ul {
     background-color: white;
 }
+.bottom-tag {
+    background-color: white; 
+}
+.header {
+    float: right;
+}
