@@ -1,21 +1,6 @@
 body {
     background: rgb(128, 0, 0);  
 }
-p {
-    color: #E53D3D;
-}
-h1 {
-   background-color: #980000; 
-}
-h2 {
-    background-color: red;
-}
-h3 {
-    background-color: red;
-}
-.bottom-tag {
-    background-color: white; 
-}
 .header {
     float: right;
 }
