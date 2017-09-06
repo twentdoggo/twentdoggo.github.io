@@ -28,3 +28,6 @@ ul {
 #nav li a:hover {
 	color: #c00;
 	background-color: #fff; }
+.active {
+	color: #00FF3B;
+}
