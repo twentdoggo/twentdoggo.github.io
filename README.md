@@ -1,2 +1,16 @@
 # twentdoggo.github.io
-My own website. I will use this as a homepage for future projects.
+My own website.
+I mess around with this to help learn how to code.
+I mainly mess around with this at my high school when I have nothing else to do during my study hall.
+Hopfully I can actually make this website kind of worthwhile.
+
+# pages you can look at
+1. Home
+Just the basic homepage of the site.
+2. Quote Today
+A little project me and my friend made for 8th grade.
+3. Links
+A page full of useful links.
+(Not on the nav bar)
+https://twentdoggo.github.io/project/
+Just where I mess around with some embeds and what I wanna add to the site.
