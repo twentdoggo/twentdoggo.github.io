@@ -36,3 +36,7 @@ ul {
 	font-family: 'VT323', monospace;
 	background-color: white;
 }
+#linknotice {
+	color: white;
+	font-weight: bold;
+}
