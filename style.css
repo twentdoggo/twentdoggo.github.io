@@ -15,7 +15,8 @@ ul {
 	list-style: none;
 	background-color: #fff;
 	border-bottom: 1px solid #ccc; 
-	border-top: 1px solid #ccc; }
+	border-top: 1px solid #ccc; 
+}
 #nav li {
 	float: left; }
 #nav li a {
@@ -24,7 +25,12 @@ ul {
 	text-decoration: none;
 	font-weight: bold;
 	color: #069;
-	border-right: 1px solid #ccc; }
+	border-right: 1px solid #ccc; 
+}
 #nav li a:hover {
 	color: #c00;
-	background-color: #fff; }
+	background-color: #fff; 
+}
+#license {
+	text-align: center;
+}
