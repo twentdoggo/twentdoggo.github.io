@@ -1,8 +1,8 @@
 body {
-    background: rgb(128, 0, 0);  
+	background: rgb(128, 0, 0);  
 }
 .header {
-    float: right;
+	float: right;
 }
 ul {
 	background-color: white;
