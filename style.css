@@ -5,7 +5,7 @@ body {
 	float: right;
 }
 ul {
-	background-color: white;
+	background-color: #fab8b9;
 }
 #nav {
 	width: 100%;
@@ -13,7 +13,7 @@ ul {
 	margin: 0 0 3em 0;
 	padding: 0;
 	list-style: none;
-	background-color: #fff;
+	background-color: #fab8b9;
 	border-bottom: 1px solid #ccc; 
 	border-top: 1px solid #ccc; 
 }
@@ -24,11 +24,11 @@ ul {
 	padding: 8px 15px;
 	text-decoration: none;
 	font-weight: bold;
-	color: #069;
+	color: #918ca4;
 	border-right: 1px solid #ccc; 
 }
 #nav li a:hover {
-	color: #c00;
+	color: #1c1c44;
 	background-color: #fff; 
 }
 #license {
