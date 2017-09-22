@@ -29,7 +29,9 @@ ul {
 }
 #nav li a:hover {
 	color: #1c1c44;
-	background-color: #fff; 
+	background-color: #fff;
+#nav li a:active {
+	color: #eb3c34;
 }
 #license {
 	text-align: center;
