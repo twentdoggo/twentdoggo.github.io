@@ -1,9 +1,6 @@
 body {
 	background: #ea6d69;  
 }
-.header {
-	float: right;
-}
 ul {
 	background-color: #fab8b9;
 }
@@ -16,8 +13,7 @@ ul {
 	background-color: #fab8b9;
 	border-bottom: 1px solid #ccc; 
 	border-top: 1px solid #ccc; 
-	position: sticky;
-	top: 0;
+
 }
 #nav li {
 	float: left; }
@@ -47,3 +43,8 @@ ul {
 .coolblue {
 	color: #1c1c44;
 }
+#header {
+	position: sticky;
+	top: 0;
+}
+	
