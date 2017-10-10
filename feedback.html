@@ -13,6 +13,7 @@ $(function(){
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+  <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 </head>
 <body>
     <div id="header"></div>
@@ -20,5 +21,25 @@ $(function(){
     <p>Please fill out this form so I can make this website better.</p>
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfLrOST2RXv9xQDEdxRRx3w3Gi17aG6NXD3TLo0E-qwLBZGJQ/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     <div id="footer"></div>
+<form action="https://send.pageclip.co/7Xvg2iBKaFRiR67Bsm49nmbacYSDId6k/Feedback" class="pageclip-form" method="post">
+  <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
+  <input type="radio" name="type" value="comment" id="comment" checked/>
+  <label htmlFor="comment">Comment</label>
+  <input type="radio" name="type" value="question" id="question"/>
+  <label htmlFor="question">Question</label>
+  <input type="radio" name="type" value="bug" id="bug"/>
+  <label htmlFor="bug">Bug Report</label>
+  <input type="radio" name="request" value="request" id="request"/>
+  <label htmlFor="request">Feature Request</label>
+  <input type="radio" name="other" value="other" id="other"/>
+  <label htmlFor="other">Other</label>
+
+  
+  <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+  <button type="submit" class="pageclip-form__submit">
+    <span>Send</span>
+  </button>
+</form>
+<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </body>
 </html>
