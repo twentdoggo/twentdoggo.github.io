@@ -22,24 +22,29 @@ $(function(){
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfLrOST2RXv9xQDEdxRRx3w3Gi17aG6NXD3TLo0E-qwLBZGJQ/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     <div id="footer"></div>
 <form action="https://send.pageclip.co/7Xvg2iBKaFRiR67Bsm49nmbacYSDId6k/Feedback" class="pageclip-form" method="post">
-  <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
-  <input type="radio" name="type" value="comment" id="comment" checked/>
-  <label htmlFor="comment">Comment</label>
-  <input type="radio" name="type" value="question" id="question"/>
-  <label htmlFor="question">Question</label>
-  <input type="radio" name="type" value="bug" id="bug"/>
-  <label htmlFor="bug">Bug Report</label>
-  <input type="radio" name="type" value="request" id="request"/>
-  <label htmlFor="request">Feature Request</label>
-  <input type="radio" name="type" value="other" id="other"/>
-  <label htmlFor="other">Other</label>
-  <input type="text" name="feedback" value="feedback" id="feedback" required />
-  <input type="text" name="name" value="name" id="name"/>
-  <input type="text" name="email" value="email" id="email"/>
-  <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+ <fieldset>
+   <legend>Feedback</legend>
+   Feedback Type<br>
+   <input type="radio" name="type" value="comment" id="comment" checked/>
+   <label htmlFor="comment">Comment</label> <br>
+   <input type="radio" name="type" value="question" id="question"/>
+   <label htmlFor="question">Question</label> <br>
+   <input type="radio" name="type" value="bug" id="bug"/>
+   <label htmlFor="bug">Bug Report</label> <br>
+   <input type="radio" name="type" value="request" id="request"/>
+   <label htmlFor="request">Feature Request</label> <br>
+   <input type="radio" name="type" value="other" id="other"/>
+   <label htmlFor="other">Other</label> <br>
+   Type Your Feedback Here<br>
+   <input type="text" name="feedback" value="feedback" id="feedback" required /> <br>
+   Name (leave bank to be anonymous)<br>
+   <input type="text" name="name" value="name" id="name"/> <br>
+   Email (leave blank to be anonymous)<br>
+   <input type="text" name="email" value="email" id="email"/> <br>
   <button type="submit" class="pageclip-form__submit">
     <span>Send</span>
   </button>
+ </fieldset>
 </form>
 <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </body>
